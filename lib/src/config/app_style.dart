@@ -10,8 +10,8 @@ sealed class AppStyle {
   );
   static const startTitleST = TextStyle(
     fontFamily: "Syne",
-    fontSize: 20,
-    fontWeight: FontWeight.w600,
+    fontSize: 30,
+    fontWeight: FontWeight.w700,
     color: AppColors.clWhite
   );
   static const partOneST = TextStyle(

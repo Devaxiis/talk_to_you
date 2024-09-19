@@ -107,34 +107,11 @@ class _DetailScreenState extends State<DetailScreen> {
                     alignment: Alignment.center,
                     decoration: const BoxDecoration(
                         shape: BoxShape.circle,
-                        color: AppColors.clBlack,
-                        boxShadow: [
-                          BoxShadow(
-                              color: AppColors.clBlue,
-                              offset: Offset(-11, -11),
-                              blurRadius: 5,
-                              spreadRadius: 5),
-                          BoxShadow(
-                            color: AppColors.clBlue2,
-                            offset: Offset(11, 11),
-                            blurRadius: 5,
-                            spreadRadius: 5,
-                          ),
-                          BoxShadow(
-                            color: AppColors.clWhite,
-                            offset: Offset(-5, 5),
-                            blurRadius: 5,
-                            spreadRadius: 5,
-                          ),
-                          BoxShadow(
-                            color: AppColors.clWhite,
-                            offset: Offset(5, -5),
-                            blurRadius: 5,
-                            spreadRadius: 5,
-                          ),
-                        ]),
+                        color: AppColors.clBlue,
+                        
+                    ),
                     child: const Text(
-                      "Start with me",
+                      "Start",
                       style: AppStyle.startTitleST,
                     ),
                   ),
